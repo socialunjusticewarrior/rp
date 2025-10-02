@@ -1,0 +1,270 @@
+ideas = {
+	hidden_ideas = {
+
+		ct_gear1_idea = {
+					
+			modifier = {
+				line_change_production_efficiency_factor = 0.05
+			}
+
+		}
+
+		ct_gear2_idea = {
+					
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+
+		}
+
+		ct_gear3_idea = {
+					
+			modifier = {
+				local_resources_factor = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+
+		}
+
+		ct_gear4a_idea = {
+					
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+			}
+
+		}
+
+		ct_gear4b_idea = {
+					
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+				industrial_capacity_dockyard = 0.05
+				local_resources_factor = 0.05
+				consumer_goods_factor = -0.15
+			}
+
+		}
+
+		ct_gear5_idea = {
+					
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+				industrial_capacity_dockyard = 0.05
+				local_resources_factor = 0.05
+				consumer_goods_factor = -0.15
+			}
+
+		}
+
+		ct_gear6_idea = {
+					
+			modifier = {
+				political_power_gain = 0.3
+			}
+
+		}
+
+		ct_gear7a_idea = {
+					
+			modifier = {
+				trade_opinion_factor = 0.25
+			}
+
+		}
+
+		ct_gear8_idea = {
+					
+			modifier = {
+				civilian_intel_to_others = -0.1
+				political_power_gain = 0.2
+				defensive_war_stability_factor = 0.1
+			}
+
+		}
+
+		ct_gear9_idea = {
+					
+			modifier = {
+				min_export = -0.1
+				defensive_war_stability_factor = 0.1
+			}
+
+		}
+
+		ct_gear10_idea = {
+					
+			modifier = {
+				political_power_gain = 0.25
+				defensive_war_stability_factor = 0.05
+				offensive_war_stability_factor = 0.15
+				autonomy_gain = 0.5
+				subjects_autonomy_gain = -0.5
+			}
+
+		}
+
+		ct_gear11_idea = {
+					
+			modifier = {
+				research_speed_factor = 0.05
+			}
+
+		}
+
+		ct_gear12_idea = {
+					
+			modifier = {
+				industry_repair_factor = 0.125
+				global_building_slots_factor = 0.05
+			}
+
+		}
+
+		ct_gear13a_idea = {
+					
+			modifier = {
+				global_building_slots_factor = 0.05
+			}
+
+		}
+
+		ct_gear13b_idea = {
+					
+			modifier = {
+				supply_node_range = 0.05
+				global_building_slots_factor = 0.05
+			}
+
+		}
+
+		ct_gear14_idea = {
+					
+			modifier = {
+				supply_node_range = 0.05
+				global_building_slots_factor = 0.05
+			}
+
+		}
+
+		ct_gear15_idea = {
+					
+			modifier = {
+				research_speed_factor = 0.05
+				industry_repair_factor = 0.025
+				global_building_slots_factor = 0.05
+			}
+
+		}
+
+		ct_gear16_idea = {
+					
+			modifier = {
+				army_org_factor = 0.025
+			}
+
+		}
+
+		ct_gear17_idea = {
+					
+			modifier = {
+				army_defence_factor = 0.025
+			}
+
+		}
+
+		ct_gear18_idea = {
+					
+			modifier = {
+				experience_gain_army_factor = 0.05
+				army_org_factor = 0.025
+				army_defence_factor = 0.025
+			}
+
+		}
+
+		ct_gear19a_idea = {
+					
+			modifier = {
+				army_attack_factor = 0.025
+			}
+
+		}
+
+		ct_gear19b_idea = {
+					
+			modifier = {
+				naval_invasion_penalty = -0.05
+				special_forces_cap = 0.1
+				naval_invasion_capacity = 10
+			}
+
+		}
+
+		ct_gear20_idea = {
+					
+			modifier = {
+				army_org_factor  = 0.025
+				experience_gain_army_factor = 0.1
+				army_defence_factor = 0.025
+				army_attack_factor = 0.025
+			}
+
+		}
+
+		ct_gear21_idea = {
+					
+			modifier = {
+				recruitable_population_factor  = 0.05
+				training_time_factor = -0.025
+			}
+
+		}
+
+		ct_gear22_idea = {
+					
+			modifier = {
+				supply_consumption_factor = 0.025
+				recruitable_population_factor = 0.05
+			}
+
+		}
+
+		ct_gear23_idea = {
+					
+			modifier = {
+				recruitable_population_factor = 0.05
+			}
+
+		}
+
+		ct_gear24a_idea = {
+					
+			modifier = {
+				recruitable_population_factor = 0.05
+				supply_consumption_factor = -0.025
+			}
+
+		}
+
+		ct_gear24b_idea = {
+					
+			modifier = {
+				recruitable_population_factor = 0.1
+			}
+
+		}
+
+		ct_gear25_idea = {
+					
+			modifier = {
+				training_time_factor = -0.025
+				recruitable_population_factor = 0.05
+				naval_invasion_capacity = 10
+			}
+
+		}
+
+	}
+}
