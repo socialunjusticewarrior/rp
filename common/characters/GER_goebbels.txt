@@ -1,0 +1,15 @@
+common/characters/GER_goebbels.txt
+characters = {
+	GER_joseph_goebbels = {
+		name = GER_joseph_goebbels_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/portrait_ger_goebbels.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			traits = { ideologue }
+		}
+	}
+}

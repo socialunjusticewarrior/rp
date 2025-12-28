@@ -1,0 +1,27 @@
+common/power_balance/GER_power_balance.txt
+# BoP: OKW vs SS
+power_balance = {
+	id = GER_okw_ss_balance
+	name = GER_okw_ss_balance_name
+	start_value = 0
+	
+	range = {
+		id = ss_dominance
+		min = -100
+		max = -10
+		modifier = {
+			army_org_factor = -0.1
+			political_power_factor = 0.15
+		}
+	}
+	
+	range = {
+		id = okw_dominance
+		min = 10
+		max = 100
+		modifier = {
+			army_org_factor = 0.1
+			political_power_factor = -0.05
+		}
+	}
+}

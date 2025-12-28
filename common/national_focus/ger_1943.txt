@@ -1,0 +1,53 @@
+
+focus_tree = {
+	id = ger_1943_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+
+	focus = {
+		id = GER_total_war_effort
+		icon = GFX_focus_total_war
+		x = 15
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_ideas = GER_total_mobilization_spirit
+			add_power_projection = 10
+		}
+	}
+
+	focus = {
+		id = GER_wunderwaffe_program
+		icon = GFX_focus_wunderwaffe
+		prerequisite = { focus = GER_total_war_effort }
+		x = 13
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_research_bonus
+				bonus = 2.0
+				uses = 1
+				category = nuclear
+			}
+		}
+	}
+
+	focus = {
+		id = GER_fortress_europe
+		icon = GFX_focus_fortress_europe
+		prerequisite = { focus = GER_total_war_effort }
+		x = 17
+		y = 1
+		cost = 10
+		completion_reward = {
+			152 = { add_building_construction = { type = fort level = 2 } }
+			153 = { add_building_construction = { type = fort level = 2 } }
+		}
+	}
+}
