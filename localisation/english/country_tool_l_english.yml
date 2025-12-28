@@ -1,5 +1,5 @@
 l_english:
- ct_main_gear_button_tt:0 "Gear Treedjjdjd"
+ ct_main_gear_button_tt:0 "Gear Tree"
  ct_main_rank_button_tt:0 "Country Ranks"
  ct_main_topbar_info_loc: "[ROOT.GetName] [GetDateText]"
  ct_gear1_idea:0 "Improved Industrial Techniques§"
