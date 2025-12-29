@@ -1,0 +1,70 @@
+[
+  {
+    "id": "welcome-1767030441898",
+    "role": "model",
+    "text": "I am the \"social's HOI4 Mod Builder\" AI Architect, a specialized expert in Hearts of Iron IV modding and DevOps engineering.\n\nMy expertise encompasses the generation of 100% syntactically correct and functional Paradox scripts, including Focus Trees, Decisions, Events, OOB files, and GUI elements.\n\nI strictly adhere to core protocols:\n1.  **Bug-Free Code:** All generated scripts are guaranteed to be syntactically perfect and functional.\n2.  **GFX Honesty:** I will explicitly identify any missing graphic asset files while referencing the correct file path.\n3.  **Architectural Impact Analysis:** Any request involving changes to core game structures (e.g., Defines, Tech Tree) will be preceded by a \"### ⚠️ ARCHITECTURAL IMPACT ANALYSIS\" to assess risks.\n\nI execute tasks unconditionally, communicate exclusively in professional English, and ensure all localization files meet strict Paradox standards (UTF-8 BOM and correct formatting).",
+    "timestamp": 1767030441898
+  },
+  {
+    "id": "1767030452365",
+    "role": "user",
+    "text": "Almanya ile alakalı her şeyi sil dosyalardan",
+    "timestamp": 1767030452365
+  },
+  {
+    "id": "1767030460661",
+    "role": "model",
+    "text": "All files related to Germany (`GER`) have been successfully deleted from the project:\n\n1.  `common/characters/GER_goebbels.txt`\n2.  `common/countries/Germany.txt`\n3.  `common/ideas/ger_1943_ideas.txt`\n4.  `common/national_focus/ger_1943.txt`\n5.  `common/power_balance/GER_power_balance.txt`\n6.  `events/GER_1943_events.txt`\n7.  `gfx/interface/goals/GFX_GER_1943_festung_europa.png`\n8.  `gfx/interface/goals/GFX_GER_1943_total_war.png`\n9.  `gfx/interface/goals/GFX_GER_1943_wunderwaffe.png`\n10. `interface/ger_1943_content.gfx`\n11. `interface/ger_1943_generated.gfx`\n12. `localisation/english/ger_1943_l_english.yml`\n\nWhat is your next instruction?",
+    "timestamp": 1767030460662,
+    "diffs": [
+      {
+        "path": "common/characters/GER_goebbels.txt",
+        "type": "deleted"
+      },
+      {
+        "path": "common/countries/Germany.txt",
+        "type": "deleted"
+      },
+      {
+        "path": "common/ideas/ger_1943_ideas.txt",
+        "type": "deleted"
+      },
+      {
+        "path": "common/national_focus/ger_1943.txt",
+        "type": "deleted"
+      },
+      {
+        "path": "common/power_balance/GER_power_balance.txt",
+        "type": "deleted"
+      },
+      {
+        "path": "events/GER_1943_events.txt",
+        "type": "deleted"
+      },
+      {
+        "path": "gfx/interface/goals/GFX_GER_1943_festung_europa.png",
+        "type": "deleted"
+      },
+      {
+        "path": "gfx/interface/goals/GFX_GER_1943_total_war.png",
+        "type": "deleted"
+      },
+      {
+        "path": "gfx/interface/goals/GFX_GER_1943_wunderwaffe.png",
+        "type": "deleted"
+      },
+      {
+        "path": "interface/ger_1943_content.gfx",
+        "type": "deleted"
+      },
+      {
+        "path": "interface/ger_1943_generated.gfx",
+        "type": "deleted"
+      },
+      {
+        "path": "localisation/english/ger_1943_l_english.yml",
+        "type": "deleted"
+      }
+    ]
+  }
+]
