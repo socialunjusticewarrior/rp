@@ -1,0 +1,25 @@
+l_english:
+ anarchism:0 "Anarchism"
+ anarchism_desc:0 "Anarchism is a political philosophy and movement that is skeptical of all justifications for authority and seeks to abolish the institutions they claim maintain unnecessary hierarchy and coercion."
+ anarcho_communism:0 "Anarcho-Communism"
+ anarcho_syndicalism:0 "Anarcho-Syndicalism"
+ 
+ monarchism:0 "Monarchism"
+ monarchism_desc:0 "Monarchism is the advocacy of a monarch or monarchical government."
+ absolute_monarchy:0 "Absolute Monarchy"
+ constitutional_monarchy:0 "Constitutional Monarchy"
+ 
+ technocracy:0 "Technocracy"
+ technocracy_desc:0 "Technocracy is a system of government in which a decision-maker or makers are elected by the population based on their expertise in a given area of responsibility, particularly with regard to scientific or technical knowledge."
+ scientific_humanism:0 "Scientific Humanism"
+ industrial_technocracy:0 "Industrial Technocracy"
+ 
+ theocracy:0 "Theocracy"
+ theocracy_desc:0 "Theocracy is a form of government in which a deity of some type is recognized as the supreme ruling authority, giving divine guidance to human intermediaries that manage the day-to-day affairs of the government."
+ clerical_fascism:0 "Clerical Fascism"
+ religious_socialism:0 "Religious Socialism"
+ 
+ radical_socialism:0 "Radical Socialism"
+ radical_socialism_desc:0 "Radical socialism represents those variants of socialism that seek fundamental social change through democratic or libertarian means, often rejecting the authoritarianism of traditional Marxism-Leninism."
+ libertarian_socialism:0 "Libertarian Socialism"
+ market_socialism:0 "Market Socialism"

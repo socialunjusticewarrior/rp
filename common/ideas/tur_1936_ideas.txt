@@ -1,0 +1,22 @@
+ideas = {
+	
+	tur_kemalist_legacy = {
+		picture = GFX_idea_tur_kemalist_legacy
+		allowed_civil_war = yes
+		
+		modifier = {
+			political_power_gain = 0.10
+			stability = 0.05
+		}
+	}
+	
+	tur_suez_deal = {
+		picture = GFX_idea_tur_suez_deal
+		allowed_civil_war = yes
+		
+		modifier = {
+			trade_deal_cost_factor = -0.10
+			naval_base_throughput = 0.05
+		}
+	}
+}

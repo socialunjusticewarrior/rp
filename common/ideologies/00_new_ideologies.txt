@@ -1,0 +1,60 @@
+ideologies = {
+	anarchism = {
+		types = {
+			anarcho_communism = {
+			}
+			anarcho_syndicalism = {
+			}
+		}
+		
+		dynamic_modifier_sum_stats = {
+			political_power_factor
+		}
+		
+		color = { 45 45 45 }
+	}
+
+	monarchism = {
+		types = {
+			absolute_monarchy = {
+			}
+			constitutional_monarchy = {
+			}
+		}
+		
+		color = { 115 95 65 }
+	}
+
+	technocracy = {
+		types = {
+			scientific_humanism = {
+			}
+			industrial_technocracy = {
+			}
+		}
+		
+		color = { 0 128 128 }
+	}
+
+	theocracy = {
+		types = {
+			clerical_fascism = {
+			}
+			religious_socialism = {
+			}
+		}
+		
+		color = { 210 180 140 }
+	}
+
+	radical_socialism = {
+		types = {
+			libertarian_socialism = {
+			}
+			market_socialism = {
+			}
+		}
+		
+		color = { 180 20 20 }
+	}
+}
