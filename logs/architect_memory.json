@@ -66,5 +66,35 @@
         "type": "deleted"
       }
     ]
+  },
+  {
+    "id": "1767035404320",
+    "role": "user",
+    "text": "Bana Türkiye ile alakalı 1936 yılı için küçük bir content yaz",
+    "timestamp": 1767035404320
+  },
+  {
+    "id": "1767035423391",
+    "role": "model",
+    "text": "I have created a small content pack for Turkey (`TUR`) starting in 1936.\n\nThe following files have been created and verified:\n\n1.  **Focus Tree:** `common/national_focus/tur_1936.txt`\n2.  **Localization:** `localisation/english/tur_1936_l_english.yml`\n3.  **Ideas/Modifiers:** `common/ideas/tur_1936_ideas.txt`\n4.  **GFX Definitions (Placeholders):** `interface/tur_1936_content.gfx`\n\nThe focus tree is a small chain centered on **Kemalist Reforms**, leading to **Economic Development** and **Military Modernization**.",
+    "timestamp": 1767035423391,
+    "diffs": [
+      {
+        "path": "common/national_focus/tur_1936.txt",
+        "type": "modified"
+      },
+      {
+        "path": "localisation/english/tur_1936_l_english.yml",
+        "type": "modified"
+      },
+      {
+        "path": "common/ideas/tur_1936_ideas.txt",
+        "type": "modified"
+      },
+      {
+        "path": "interface/tur_1936_content.gfx",
+        "type": "modified"
+      }
+    ]
   }
 ]

@@ -1,0 +1,77 @@
+focus_tree = {
+	id = tur_1936_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TUR
+		}
+	}
+	
+	default = no
+	
+	focus = {
+		id = tur_kemalist_reforms
+		icon = GFX_goal_generic_political_effort
+		x = 10
+		y = 0
+		cost = 10
+		
+		completion_rewards = {
+			add_political_power = 100
+			add_ideas = tur_kemalist_legacy
+		}
+	}
+	
+	focus = {
+		id = tur_economic_development
+		icon = GFX_goal_generic_industry
+		x = 8
+		y = 2
+		cost = 7
+		
+		prerequisite = { focus = tur_kemalist_reforms }
+		relative_to_focus = tur_kemalist_reforms
+		x = -4
+		y = 2
+		
+		completion_rewards = {
+			add_extra_construction = 1
+		}
+	}
+	
+	focus = {
+		id = tur_military_modernization
+		icon = GFX_goal_generic_army
+		x = 12
+		y = 2
+		cost = 7
+		
+		prerequisite = { focus = tur_kemalist_reforms }
+		relative_to_focus = tur_kemalist_reforms
+		x = 4
+		y = 2
+		
+		completion_rewards = {
+			add_army_experience = 50
+		}
+	}
+	
+	focus = {
+		id = tur_suez_canal_transit
+		icon = GFX_goal_generic_naval_effort
+		x = 10
+		y = 4
+		cost = 5
+		
+		prerequisite = { focus = tur_military_modernization }
+		relative_to_focus = tur_military_modernization
+		x = 0
+		y = 2
+		
+		completion_rewards = {
+			add_ideas = tur_suez_deal
+		}
+	}
+}
